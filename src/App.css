@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  box-sizing: border-box;
+  
+  
+}
+
+
+.whole-container{
+  width: 300px;
+  height: 180px;
+  border: 6px solid black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+height: 500px;
+background-image:url("https://i.pinimg.com/originals/7f/c3/15/7fc3151a6f3e6907885fddc31f30a30f.jpg");
+background-size: 350px;
+opacity: 1;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.timecont {
+  display: flex;
+  flex-direction: column;
+  
+}
+.timecont :first-child{
+  margin-bottom: 350px;
+}
+
+
+.form{
+  font-size: 60px;
+  color: lightseagreen;
+}
+
+.hour{
+  font-size: 20px;
+  color:black;
+  margin-left: 10px;
+}
+
+.button{
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 2px solid salmon;
+  margin-left: 50px;
+  justify-content: space-between;
+  
+
+}
+.container{
+  margin-left: 700px;
+}
